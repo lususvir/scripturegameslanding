@@ -1,0 +1,521 @@
+html {
+    height: 100%;
+    width: 100%
+}
+html body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    position: relative
+}
+
+html body div h1, html body div h2 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+div.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center
+}
+
+div.space {
+    margin-bottom: 40px;   
+}
+/* --------------- top section ------------- */
+
+div#topLeft {
+    text-align: right;   
+    padding-top: 40px;
+    padding-right: 100px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 50px;
+
+}
+
+div#topLeftContent {
+    text-align: center;
+    display: inline-block;
+}
+
+div#topRight {
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+div#topRight img {
+    max-width: 90%;   
+}
+
+#about {
+    background: #F38F3E ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F16E29 , #FBBF40); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F16E29 , #FBBF40); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F16E29 , #FBBF40); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F16E29 , #FBBF40); /* Standard syntax */ 
+    color: #888;
+    height: auto;
+    margin-bottom: 0;
+    padding: 100px 0 0;
+    position: relative;
+    width: 100%
+}
+
+div#dunesbg {
+    background-image: url(../images/dunes-bg.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 100%;
+}
+
+div.forward {
+    z-index: 2;
+}
+
+div#dunes {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 0;
+    background: #fff;
+}
+
+html body div#about h1 {
+    color: #FFFF06;   
+}
+
+html body div#about p {
+    font-family: Roboto, sans-serif;
+    color: #441403;
+    font-size: 1.2em;
+}
+
+html body ul {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    color: #441403;
+    font-size: 1.2em;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+div#about span img {
+    width: 60px;
+    display: inline-block;
+    margin-top: -24px;
+    margin-right: 2px
+}
+div#about h1 {
+    display: inline-block;
+    letter-spacing: 2px
+}
+
+div.button-wrapper {
+    display: inline;   
+}
+
+div#logo-container,
+div.formwrap {
+    text-align: center
+}
+
+/* clouds */
+
+
+.x1 {
+    width:200px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: url(../images/cloud-07.svg);  
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    -webkit-animation: moveclouds 70s linear infinite;
+	-moz-animation: moveclouds 70s linear infinite;
+	-o-animation: moveclouds 70s linear infinite;
+}
+
+.x2 {
+    width:80px;
+    height: 30px;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+    background: url(../images/cloud-08.svg);   
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    -webkit-animation: moveclouds 200s linear infinite;
+	-moz-animation: moveclouds 200s linear infinite;
+	-o-animation: moveclouds 200s linear infinite;
+}
+
+.x3 {
+    width:80px;
+    height: 30px;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    background: url(../images/cloud-09.svg);   
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    -webkit-animation: moveclouds 180s linear infinite;
+	-moz-animation: moveclouds 180s linear infinite;
+	-o-animation: moveclouds 180s linear infinite;
+}
+
+.x4 {
+    width:120px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    left: 40%;
+    background: url(../images/cloud-10.svg);   
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1; 
+     -webkit-animation: moveclouds 105s linear infinite;
+	-moz-animation: moveclouds 105s linear infinite;
+	-o-animation: moveclouds 105s linear infinite;
+}
+
+.x5 {
+   width:200px;
+    height: 70px;
+    position: absolute;
+    top: 120px;
+    left: 70%;
+    background: url(../images/cloud-11.svg);   
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;  
+     -webkit-animation: moveclouds 95s linear infinite;
+	-moz-animation: moveclouds 95s linear infinite;
+	-o-animation: moveclouds 95s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 0%;}
+	100% {margin-left: 110%;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 0%;}
+	100% {margin-left: 110%;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 0%;}
+	100% {margin-left: 110%;}
+}
+
+#learn-more {
+    bottom: 10px;
+    color: #555;
+    cursor: pointer;
+    font-size: 1.5em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+#learn-more div {
+    margin: 0 auto;
+    position: relative;
+    width: 200px
+}
+#learn-more i {
+    font-size: 1.5em;
+    position: relative;
+    top: 3px
+}
+#learn-more:hover {
+    color: #F15856
+}
+div#gif {
+    
+    /* top: ABEBFF 
+    bottom: F8FFC7 */
+    background: #ABEBFF ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ABEBFF , #F8FFC7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ABEBFF , #F8FFC7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ABEBFF , #F8FFC7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ABEBFF , #F8FFC7); /* Standard syntax */ 
+
+}
+
+div#gif img {
+    max-width: 100%;   
+}
+
+div#signup h2 {
+    color: #CE7115;
+
+}
+
+#thanks {
+    display: none;   
+}
+
+form#iOSForm input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background: #E6E7E8;
+    color: 808184;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+form#iOSForm button {
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background: #81DCFC;
+    font-size: 20px;
+    -webkit-box-shadow: 10px 10px 10px #49B2DB;
+    -moz-box-shadow: 10px 10px 10px #49B2DB;
+    box-shadow: 0px 5px 5px #49B2DB;
+    color: #18627F;
+}
+
+img#moses-mad {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: 20px;
+    background: #BE1E2D;
+    -webkit-box-shadow: 10px 10px 10px #777;
+    -moz-box-shadow: 10px 10px 10px #777;
+    box-shadow: 0px 5px 10px #777;
+}
+
+div.feature {
+    display: block;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+div.feature div.featureBadge{
+    width: 75px;
+    float: left;
+    margin-right: 20px;
+}
+
+div.feature h2 {
+    color: #CE7115;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #ACBF96; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ACBF96, #D3D689); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ACBF96, #D3D689); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ACBF96, #D3D689); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ACBF96, #D3D689); /* Standard syntax */ 
+    color: #fff;
+    text-align: center;
+}
+
+div#footerbg {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background-image: url(../images/footerbg.svg);
+    height: 100%;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+div#footerfg {
+    background-image: url(../images/footerfg.svg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px
+}
+footer ul li {
+    display: inline;
+    margin: 0 20px
+}
+footer ul li a i {
+    font-size: 30px;
+    color: #fff
+}
+footer ul li a i:hover {
+    color: #e2e2e2
+}
+
+div#footer-row {
+    margin-bottom: 40px;    
+
+}
+
+
+/* ============ privacy policy ============== */
+
+html body div#privacyPolicy div.row div {
+    text-align: left;   
+}
+
+div#about a {
+    background: #424242;
+    color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+div#about.privacy p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+html body div#privacyPolicy div.row {
+    margin-bottom: 40px;   
+}
+
+/* ============ end privacy policy ============== */
+
+
+
+@media (min-width: 768px) {
+    div#logo-container {
+        text-align: center;
+        position: relative;
+        top: 35%;
+        transform: translateY(-50%)
+    }
+    .content h1,
+    div.container h1,
+    html body div.jumbotron div.container h1 {
+        font-size: 48px
+    }
+    .content h2,
+    div.container h2,
+    html body div.jumbotron div.container h2 {
+        font-size: 30px
+    }
+    
+    
+
+    
+}
+
+
+/* first break point */
+@media (max-width: 992px) {
+  
+    #about {
+  
+        padding: 50px 0 0;
+        height: auto;
+    
+    }
+  
+
+    
+    div#about div#logo-container div.row div.form a.button {
+      	
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 14px;
+    }
+    
+    footer ul#social li {
+        margin: 0 10px
+    }
+    .content h1,
+    div.container h1,
+    html body div.jumbotron div.container h1 {
+        font-size: 38px!important
+    }
+    .content h2,
+    div.container h2,
+    html body div.jumbotron div.container h2 {
+        font-size: 20px
+    }
+    div#about span img {
+        width: 45px;
+        margin-top: -20px
+    }
+    div#logo-container {
+        text-align: center;
+        position: relative;
+        top: 10%;
+        transform: translateY(-15%)
+    }
+    
+    div#topLeft {
+        text-align: center;   
+        padding-top: 40px;
+        margin-bottom: 40px;
+        padding-right: 0;
+        padding-bottom: 0;
+
+    }
+
+    div#topLeftContent {
+        text-align: center;
+        display: block;
+    }
+    
+    div#topRight {
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+    
+}
+
+
+/* second break point */
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+form#iOSForm input {
+    width: 100%;
+}
+    
+    footer {
+    
+    height: auto;
+    
+}
+    
+}
+
+@media only screen and (max-width : 320px) {
+
+}
