@@ -69,7 +69,7 @@ div#topRight img {
 div#dunesbg {
     background-image: url(../images/dunes-bg.svg);
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position: left bottom;
     background-size: 100% auto;
     background-position: bottom;
     height: 100%;
@@ -275,7 +275,7 @@ form#iOSForm input {
     border-radius: 15px;
     border: none;
     background: #E6E7E8;
-    color: 808184;
+    color: #808184;
     font-size: 20px;
     padding: 0 20px;
 }
