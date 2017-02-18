@@ -72,12 +72,12 @@ div#topRight img {
    
 }
 
-a.svg {
+a.asvg {
     position: relative;
     display: inline-block
 }
 
-a.svg:after {
+a.asvg:after {
     content: "";
     position: absolute;
     top: 0;
