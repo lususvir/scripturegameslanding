@@ -66,8 +66,24 @@ div#topRight img {
     width: 100%
 }
 
-#about a {
-    display: inline-block;   
+
+#about div.button-wrapper {
+    display: inline-block;
+   
+}
+
+a.svg {
+    position: relative;
+    display: inline-block
+}
+
+a.svg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 div#dunesbg {
@@ -121,10 +137,6 @@ div#about span img {
 div#about h1 {
     display: inline-block;
     letter-spacing: 2px
-}
-
-div.button-wrapper {
-    display: inline;   
 }
 
 div#logo-container,
