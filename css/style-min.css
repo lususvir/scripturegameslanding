@@ -381,7 +381,7 @@ html body div#privacyPolicy div.row div {
     text-align: left;   
 }
 
-div#about a {
+div#about.privacy a {
     background: #424242;
     color: #f2f2f2;
     border-radius: 10px;
