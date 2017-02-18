@@ -66,6 +66,10 @@ div#topRight img {
     width: 100%
 }
 
+#about a {
+    display: inline-block;   
+}
+
 div#dunesbg {
     background-image: url(../images/dunes-bg.svg);
     background-repeat: no-repeat;
