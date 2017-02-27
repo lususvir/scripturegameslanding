@@ -338,6 +338,25 @@ div.feature h2 {
     margin-bottom: 10px;
 }
 
+/* youtube video */
+
+div#youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0; 
+    overflow: hidden;
+}
+
+div#youtube iframe, div#youtube object, div#youtube embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 footer {
     background: #ACBF96; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#ACBF96, #D3D689); /* For Safari 5.1 to 6.0 */
